@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10A0D7A1C55E089004A49EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A0D791C55E089004A49EE /* AppDelegate.swift */; };
+		B10A0D7C1C55E089004A49EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A0D7B1C55E089004A49EE /* ViewController.swift */; };
+		B10A0D7F1C55E089004A49EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10A0D7D1C55E089004A49EE /* Main.storyboard */; };
+		B10A0D811C55E089004A49EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10A0D801C55E089004A49EE /* Assets.xcassets */; };
+		B10A0D841C55E089004A49EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10A0D821C55E089004A49EE /* LaunchScreen.storyboard */; };
+		B10A0D8F1C55E089004A49EE /* MitakaGomiBukuroMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A0D8E1C55E089004A49EE /* MitakaGomiBukuroMapTests.swift */; };
+		B10A0D9A1C55E089004A49EE /* MitakaGomiBukuroMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10A0D991C55E089004A49EE /* MitakaGomiBukuroMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B10A0D8B1C55E089004A49EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B10A0D6E1C55E089004A49EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B10A0D751C55E089004A49EE;
+			remoteInfo = MitakaGomiBukuroMap;
+		};
+		B10A0D961C55E089004A49EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B10A0D6E1C55E089004A49EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B10A0D751C55E089004A49EE;
+			remoteInfo = MitakaGomiBukuroMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B10A0D761C55E089004A49EE /* MitakaGomiBukuroMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MitakaGomiBukuroMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10A0D791C55E089004A49EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B10A0D7B1C55E089004A49EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B10A0D7E1C55E089004A49EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B10A0D801C55E089004A49EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10A0D831C55E089004A49EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B10A0D851C55E089004A49EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10A0D8A1C55E089004A49EE /* MitakaGomiBukuroMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitakaGomiBukuroMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10A0D8E1C55E089004A49EE /* MitakaGomiBukuroMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MitakaGomiBukuroMapTests.swift; sourceTree = "<group>"; };
+		B10A0D901C55E089004A49EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10A0D951C55E089004A49EE /* MitakaGomiBukuroMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitakaGomiBukuroMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10A0D991C55E089004A49EE /* MitakaGomiBukuroMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MitakaGomiBukuroMapUITests.swift; sourceTree = "<group>"; };
+		B10A0D9B1C55E089004A49EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B10A0D731C55E089004A49EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10A0D871C55E089004A49EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10A0D921C55E089004A49EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B10A0D6D1C55E089004A49EE = {
+			isa = PBXGroup;
+			children = (
+				B10A0D781C55E089004A49EE /* MitakaGomiBukuroMap */,
+				B10A0D8D1C55E089004A49EE /* MitakaGomiBukuroMapTests */,
+				B10A0D981C55E089004A49EE /* MitakaGomiBukuroMapUITests */,
+				B10A0D771C55E089004A49EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B10A0D771C55E089004A49EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10A0D761C55E089004A49EE /* MitakaGomiBukuroMap.app */,
+				B10A0D8A1C55E089004A49EE /* MitakaGomiBukuroMapTests.xctest */,
+				B10A0D951C55E089004A49EE /* MitakaGomiBukuroMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B10A0D781C55E089004A49EE /* MitakaGomiBukuroMap */ = {
+			isa = PBXGroup;
+			children = (
+				B10A0D791C55E089004A49EE /* AppDelegate.swift */,
+				B10A0D7B1C55E089004A49EE /* ViewController.swift */,
+				B10A0D7D1C55E089004A49EE /* Main.storyboard */,
+				B10A0D801C55E089004A49EE /* Assets.xcassets */,
+				B10A0D821C55E089004A49EE /* LaunchScreen.storyboard */,
+				B10A0D851C55E089004A49EE /* Info.plist */,
+			);
+			path = MitakaGomiBukuroMap;
+			sourceTree = "<group>";
+		};
+		B10A0D8D1C55E089004A49EE /* MitakaGomiBukuroMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				B10A0D8E1C55E089004A49EE /* MitakaGomiBukuroMapTests.swift */,
+				B10A0D901C55E089004A49EE /* Info.plist */,
+			);
+			path = MitakaGomiBukuroMapTests;
+			sourceTree = "<group>";
+		};
+		B10A0D981C55E089004A49EE /* MitakaGomiBukuroMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B10A0D991C55E089004A49EE /* MitakaGomiBukuroMapUITests.swift */,
+				B10A0D9B1C55E089004A49EE /* Info.plist */,
+			);
+			path = MitakaGomiBukuroMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B10A0D751C55E089004A49EE /* MitakaGomiBukuroMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10A0D9E1C55E089004A49EE /* Build configuration list for PBXNativeTarget "MitakaGomiBukuroMap" */;
+			buildPhases = (
+				B10A0D721C55E089004A49EE /* Sources */,
+				B10A0D731C55E089004A49EE /* Frameworks */,
+				B10A0D741C55E089004A49EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MitakaGomiBukuroMap;
+			productName = MitakaGomiBukuroMap;
+			productReference = B10A0D761C55E089004A49EE /* MitakaGomiBukuroMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B10A0D891C55E089004A49EE /* MitakaGomiBukuroMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10A0DA11C55E089004A49EE /* Build configuration list for PBXNativeTarget "MitakaGomiBukuroMapTests" */;
+			buildPhases = (
+				B10A0D861C55E089004A49EE /* Sources */,
+				B10A0D871C55E089004A49EE /* Frameworks */,
+				B10A0D881C55E089004A49EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B10A0D8C1C55E089004A49EE /* PBXTargetDependency */,
+			);
+			name = MitakaGomiBukuroMapTests;
+			productName = MitakaGomiBukuroMapTests;
+			productReference = B10A0D8A1C55E089004A49EE /* MitakaGomiBukuroMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B10A0D941C55E089004A49EE /* MitakaGomiBukuroMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10A0DA41C55E089004A49EE /* Build configuration list for PBXNativeTarget "MitakaGomiBukuroMapUITests" */;
+			buildPhases = (
+				B10A0D911C55E089004A49EE /* Sources */,
+				B10A0D921C55E089004A49EE /* Frameworks */,
+				B10A0D931C55E089004A49EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B10A0D971C55E089004A49EE /* PBXTargetDependency */,
+			);
+			name = MitakaGomiBukuroMapUITests;
+			productName = MitakaGomiBukuroMapUITests;
+			productReference = B10A0D951C55E089004A49EE /* MitakaGomiBukuroMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B10A0D6E1C55E089004A49EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kumaocky;
+				TargetAttributes = {
+					B10A0D751C55E089004A49EE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B10A0D891C55E089004A49EE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B10A0D751C55E089004A49EE;
+					};
+					B10A0D941C55E089004A49EE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B10A0D751C55E089004A49EE;
+					};
+				};
+			};
+			buildConfigurationList = B10A0D711C55E089004A49EE /* Build configuration list for PBXProject "MitakaGomiBukuroMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B10A0D6D1C55E089004A49EE;
+			productRefGroup = B10A0D771C55E089004A49EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B10A0D751C55E089004A49EE /* MitakaGomiBukuroMap */,
+				B10A0D891C55E089004A49EE /* MitakaGomiBukuroMapTests */,
+				B10A0D941C55E089004A49EE /* MitakaGomiBukuroMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B10A0D741C55E089004A49EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10A0D841C55E089004A49EE /* LaunchScreen.storyboard in Resources */,
+				B10A0D811C55E089004A49EE /* Assets.xcassets in Resources */,
+				B10A0D7F1C55E089004A49EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10A0D881C55E089004A49EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10A0D931C55E089004A49EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B10A0D721C55E089004A49EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10A0D7C1C55E089004A49EE /* ViewController.swift in Sources */,
+				B10A0D7A1C55E089004A49EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10A0D861C55E089004A49EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10A0D8F1C55E089004A49EE /* MitakaGomiBukuroMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10A0D911C55E089004A49EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10A0D9A1C55E089004A49EE /* MitakaGomiBukuroMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B10A0D8C1C55E089004A49EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B10A0D751C55E089004A49EE /* MitakaGomiBukuroMap */;
+			targetProxy = B10A0D8B1C55E089004A49EE /* PBXContainerItemProxy */;
+		};
+		B10A0D971C55E089004A49EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B10A0D751C55E089004A49EE /* MitakaGomiBukuroMap */;
+			targetProxy = B10A0D961C55E089004A49EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B10A0D7D1C55E089004A49EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10A0D7E1C55E089004A49EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B10A0D821C55E089004A49EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10A0D831C55E089004A49EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B10A0D9C1C55E089004A49EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B10A0D9D1C55E089004A49EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B10A0D9F1C55E089004A49EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MitakaGomiBukuroMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumaocky.MitakaGomiBukuroMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B10A0DA01C55E089004A49EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MitakaGomiBukuroMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumaocky.MitakaGomiBukuroMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B10A0DA21C55E089004A49EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MitakaGomiBukuroMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumaocky.MitakaGomiBukuroMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MitakaGomiBukuroMap.app/MitakaGomiBukuroMap";
+			};
+			name = Debug;
+		};
+		B10A0DA31C55E089004A49EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MitakaGomiBukuroMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumaocky.MitakaGomiBukuroMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MitakaGomiBukuroMap.app/MitakaGomiBukuroMap";
+			};
+			name = Release;
+		};
+		B10A0DA51C55E089004A49EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MitakaGomiBukuroMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumaocky.MitakaGomiBukuroMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MitakaGomiBukuroMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B10A0DA61C55E089004A49EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MitakaGomiBukuroMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumaocky.MitakaGomiBukuroMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MitakaGomiBukuroMap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B10A0D711C55E089004A49EE /* Build configuration list for PBXProject "MitakaGomiBukuroMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10A0D9C1C55E089004A49EE /* Debug */,
+				B10A0D9D1C55E089004A49EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10A0D9E1C55E089004A49EE /* Build configuration list for PBXNativeTarget "MitakaGomiBukuroMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10A0D9F1C55E089004A49EE /* Debug */,
+				B10A0DA01C55E089004A49EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B10A0DA11C55E089004A49EE /* Build configuration list for PBXNativeTarget "MitakaGomiBukuroMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10A0DA21C55E089004A49EE /* Debug */,
+				B10A0DA31C55E089004A49EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B10A0DA41C55E089004A49EE /* Build configuration list for PBXNativeTarget "MitakaGomiBukuroMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10A0DA51C55E089004A49EE /* Debug */,
+				B10A0DA61C55E089004A49EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B10A0D6E1C55E089004A49EE /* Project object */;
+}
